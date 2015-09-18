@@ -1,0 +1,66 @@
+html {
+  background-image: url('http://cdn2.epictimes.com/wp-content/uploads/2014/10/casino.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: auto;
+
+
+}
+.content {
+  width: 40%;
+  height: 490px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 125px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(188, 146, 142, 0.6);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px gold;
+}
+
+p, h1, h2 {
+  color: white;
+  text-shadow: 2px 2px red, -2px -2px red;
+
+}
+
+#guesstext {
+  font-family: "Party LET";
+  font-size: 22px;
+}
+
+.header {
+  font-family: "Papyrus";
+}
+
+.ps {
+  font-family: "Party LET";
+  font-size: 18px;
+}
+
+#losetext {
+  font-size: 26px;
+  font-family: "Party LET";
+
+}
+
+ .whitetext {
+   color: white;
+   text-shadow: 1px 1px red, -1px -1px red;
+ }
+
+.orangetext {
+  color: orange;
+  text-shadow: 1px 1px black, -1px -1px black;
+
+}
+
+.redtext{
+  color: red;
+  text-shadow: 1px 1px black, -1px -1px black;
+
+}

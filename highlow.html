@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="highlow.css">
+    <script src="highlow.js"></script>
+    <title>High Low App</title>
+  </head>
+  <body>
+
+    <div class="content">
+      <h1 class="header">Super Amazing High-Low Game</h1>
+      <form>
+        <p class="ps">TYPE IN YOUR GUESS!<br></p>
+        <p class="ps">YOU ONLY GET 7!<br></p>
+        <input type="text" id="textbox" onkeydown="if (event.keyCode == 13) document.getElementById('guessbtn').click()"/>
+        <button type="button" id="guessbtn" class="btn btn-success">Guess!</button>
+        <button type='button' id='restart' class='btn btn-danger'>Restart</button>
+     </form>
+    <div class="guesses col-md-12">
+    </div>
+   </div><!--content-->
+
+  </body>
+</html>
