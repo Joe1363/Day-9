@@ -82,7 +82,7 @@ $('#textbox').focus();
     userinput = ""; //Clear input
     $('#textbox').val('');  //Clear text box
     currentcount = 1; //Reset count
-    $('h4').remove();
+    $('h4').remove(); //Remove hints and messages
     $('h2').remove();
     $('#win').remove();
     $("#guessbtn").removeAttr("disabled", "disabled");  //Re-enable guess btn
